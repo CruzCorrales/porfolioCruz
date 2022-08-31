@@ -102,7 +102,7 @@ h2{
     height: 50vh;
     width: 25vw;
     align-items: center;
-    border: 3px solid white;
+    border: 5px solid white;
     background-image: url("../img/fondos/fondoGotas.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
