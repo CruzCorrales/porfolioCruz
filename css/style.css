@@ -1,0 +1,308 @@
+@font-face{
+    font-family: "Annie";
+    src: url("../fonts/Annie_Use_Your_Telescope/AnnieUseYourTelescope-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Annie";
+    font-size: xx-large;
+}
+.header{
+    background-image: url("../img/burbujas.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+.header_contacto{
+    background-image: url("../img/emogis/02.contacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+}
+.header_trabajos{
+    background-image: url("../trabajos/trabajos.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    align-items: center;
+}
+.nombre{
+    color: #c0c9ca;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 30%;
+}
+.main_presentacion{
+    background-image: url("../img/luzMar.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.main_contacto{
+    background-image: url("../img/punos.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.main_trabajo{
+    background-image: url("../img/fondos/fondoRemolino.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.nombreCompleto{
+    text-shadow: 1vh 1.5vw 3px #1e6da2;
+    font-weight: bolder;
+}
+.nombreYentrada{
+    height: 25vh;
+    width: 70vw;
+    background-image: url("../img/fondos/fondoGotas.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+}
+h2{
+    background-image: url("../img/fondos/fondoGotas.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 40px 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+}
+.cuadro{
+    height: 45vh;
+    width: 25vw;
+    align-items: center;
+    border: 3px solid white;
+    padding: 2vh;
+    margin: 2vh;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.recuadro_Trabajo{
+    height: 50vh;
+    width: 25vw;
+    align-items: center;
+    border: 3px solid white;
+    background-image: url("../img/fondos/fondoGotas.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2vh;
+    margin: 2vh;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.icono{
+    height: 15vh;
+    width: 9vw;
+    padding: 5px;
+    background-image: url("../img/fondos/fondoGotas.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.icono:hover{
+    border-radius: 50px;
+    border: 10px solid white;
+}
+.icono_Trabajo{
+    height: 30vh;
+    width: 20vw;
+    padding: 5px;
+    background-color: #7f898a;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.icono_Trabajo:hover{
+    border-radius: 100px;
+    border: 10px solid white;
+}
+.huella{
+    height: 5vh;
+    width: 4vw;
+    margin-top: 1vh;
+}
+.lista li a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    text-decoration: none;
+    color: white;
+}
+.opcion{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+.opcion__li{
+    list-style: none;
+}
+.opcion__a{
+    text-decoration: none;
+    color: #0f3955;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+fieldset{
+    margin-top: 5%;
+    padding: 2%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-image: url("../img/fondos/fondoGotas.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    border: 3px solid #c0c9ca;
+    border-radius: 10px;
+}
+textarea{
+    border: 3px solid #c0c9ca;
+    border-radius: 10px;
+}
+button{
+    border: 3px solid white;
+    background-color: #7f898a;
+    border-radius: 10px;
+    height: 10vh;
+    width: 21vw;
+    margin-bottom: 2vh;
+    padding: 1vw;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    border-radius: 30px;
+    border: 10px solid #0f3955;
+
+}
+button:active{
+    border-radius: 45px;
+    background-color: #1e6da2;
+}
+.opcion__a::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    border-radius: 1px;
+    background-color: white;
+    transition: width .3s;
+}
+.opcion__a:hover::after{
+    width: 100%;
+}
+.laEkis{
+    display: block;
+}
+.laEkis div{
+    height: 3px;
+    width: 25px;
+    margin: 5px 0 5px 0;
+    border-radius: 20px;
+    background-color: #c0c9ca;
+    transition: all 1s ease-out;
+}
+.contenedor_imagen{
+    display: flex;
+    justify-content: space-around;
+}
+.cruz{
+    height: 50vh;
+    width: 20vw;
+    border-radius: 20px;
+    margin: 50px 120px 20px 120px;
+    border: 5px solid white;
+}
+.nombreYentrada{
+    margin: 20vh;
+}
+.contenedor_habilidades{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+.pie{
+    background-image: url("../img/burbujas.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #c0c9ca;
+    height: 7vh;
+}
+@media screen and (max-width: 1024px){
+    .opcion{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 830px){
+    body{
+        overflow-x: hidden;
+    }
+    .laEkis{
+        display: block;
+    }
+    .opcion{
+        position: absolute;
+        right: 0px;
+        top: 8vh;
+        height: 92vh;
+        background-image: url("../img/burbujas.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 1s;
+        border-radius: 50px 0px 0px 50px;
+    }
+    .opcion__li{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    .opcion--activada .opcion__li{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    .opcion--activada{
+        transform: translateX(0%);
+    }
+    .toggle .laEkis__arriba{
+        transform: rotate(45deg) translate(6px, 7px);
+    }
+    .toggle .laEkis__enmedio{
+        opacity: 0;
+    }
+    .toggle .laEkis__abajo{
+        transform: rotate(-45deg) translate(4px, -6px);
+    }
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.padre{
+    position: absolute;
+}
+.carta{
+    border: 2px solid blue;
+    position: absolute;
+    height: 375px;
+    top: 100px;
+    left: 300px;
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+    transition-property: transform;
+    transition-duration: 5s;
+}
+#figure1{
+    z-index: 1;
+}
+#figure1:hover{
+    transform: rotate(30deg);
+}
+#figure1:hover ~ #figure2{
+    transform: rotate(-30deg);
+}
+img{
+    width: 250px;
+}
+#figure1:hover ~ #figure3{
+transform:rotate(-15deg)
+}
+#figure1:hover ~ #figure4{
+transform:rotate(0deg)
+}
+#figure1:hover ~ #figure5{
+transform:rotate(15deg)
+}

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fondo flor*/
+main{
+    background-image: linear-gradient(#6babd5, #2b2da7, #613db6);
+    height: 600px;
+    width: 600px;
+    position: absolute;
+}
+/*base*/
+footer{
+    background-color: #72727d;
+    position: absolute;
+    height: 50px;
+    width: 600px;
+    top: 600px;
+}
+/*rama flor*/
+.tallo{
+    background-image: linear-gradient(to left, #968787, white, #968787);
+    height: 300px;
+    width: 40px;
+    position: absolute;
+    left: 275px;
+    top: 300px;
+}
+/*1-petalo genericox4*/
+.x4pet{
+    position: absolute;
+    top: 301px;
+    left: 296px;
+}
+.petalo{
+    height: 150px;
+    width: 150px;
+    background-image: radial-gradient(white, #dcc879);
+    border-radius: 350px 50px;
+    position: absolute;
+}
+.dcha-arr{
+    top: 0px;
+    left: 0px;
+    transform: rotate(90deg);
+}
+.dcha-aba{
+    top: -148px;
+    left: 0px;
+    transform: rotate(0deg);
+}
+.izq-arr{
+    top: 0px;
+    left: -150px;
+    transform: rotate(0deg);
+}
+.izq-aba{
+    top: -151px;
+    left: -150px;
+    transform: rotate(271deg);
+}
+.div2{
+    transform: rotate(30deg);
+    transform-origin: center;
+    transform-origin: left 220px, top 220px;
+}
+.div3{
+    transform: rotate(60deg);
+    transform-origin: center;
+    transform-origin: left 220px, top 220px;
+}
+/*centro flor*/
+.centro{
+    background-image: radial-gradient(#ff6a00, white);
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    position: absolute;
+    left: 220px;
+    top: 220px;
+}

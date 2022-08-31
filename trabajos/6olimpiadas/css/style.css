@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #ded6d6;
+}
+h1{
+    text-align: center;
+}
+#contenedor1{
+    height: 200px;
+}
+#contenedor2{
+    height: 200px;
+}
+.circuloAzul{
+    position: relative;
+    margin: 63px 70px 2px 555px;
+    height:100px;
+    width:100px;
+    border-radius:56px;
+    border: 4px solid #334ddc;
+}
+ .circuloNegro{
+    position: absolute;
+    margin: -110px 75px 16px 677px;
+    height:100px;
+    width:100px;
+    border-radius:56px;
+    border: 4px solid black;
+}
+.circuloRojo{
+    position: absolute;
+    margin: -110px 75px 22px 799px;
+    height:100px;
+    width:100px;
+    border-radius:56px;
+    border: 4px solid red;
+}
+.circuloAmarillo{
+    position: absolute;
+    margin: -143px 75px 16px 614px;
+    height:100px;
+    width:100px;
+    border-radius:56px;
+    border: 4px solid yellow
+}
+.circuloVerde{
+    position: absolute;
+    margin: -143px 75px 16px 737px;
+    height:100px;
+    width:100px;
+    border-radius:56px;
+    border: 4px solid green;
+}
+.desaparecer{
+    visibility: hidden;
+}

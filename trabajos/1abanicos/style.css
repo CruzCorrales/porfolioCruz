@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.padre{
+    background-color: #741010;
+    height: 600px;
+    width: 800px;
+    padding: 0.5em; 
+}
+.a1{
+    background-color: rgb(118, 72, 43);
+    height: 180px;
+    width: 180px;
+    border-radius: 300px 0px 0px 0px;
+    margin: 0.5em;
+    display: inline-block;
+}
+.b{
+    background-color: rgb(245, 208, 43);
+}

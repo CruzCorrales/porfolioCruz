@@ -1,0 +1,10 @@
+#campo {
+    width: 800px;
+    height:500px;
+    border: 10px groove black;
+    background-color: #00FF00;
+  }
+
+#balon {
+    position: absolute;
+}
