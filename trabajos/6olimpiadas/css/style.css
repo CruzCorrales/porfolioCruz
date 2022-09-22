@@ -9,6 +9,15 @@ body{
 }
 h1{
     text-align: center;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+.boton{
+    margin:50px 0 0 500px;
+    height: 80px;
+    width: 160px;
+    border-radius: 50px;
+    font-size: x-large;
 }
 #contenedor1{
     height: 200px;

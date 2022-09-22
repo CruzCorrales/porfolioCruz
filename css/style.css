@@ -9,7 +9,7 @@
     font-size: xx-large;
 }
 .header{
-    background-image: url("../img/burbujas.webp");
+    background-image: url("../img/fondos/Matrix4.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -43,19 +43,19 @@
     width: 30%;
 }
 .main_presentacion{
-    background-image: url("../img/luzMar.jpeg");
+    background-image: url("../img/fondos/Matrix3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
 .main_contacto{
-    background-image: url("../img/punos.jpeg");
+    background-image: url("../img/fondos/Matrix3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
 .main_trabajo{
-    background-image: url("../img/fondos/fondoRemolino.jpeg");
+    background-image: url("../img/fondos/Matrix3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -66,9 +66,10 @@
     font-weight: bolder;
 }
 .nombreYentrada{
-    height: 25vh;
-    width: 70vw;
-    background-image: url("../img/fondos/fondoGotas.jpeg");
+    height: 15%;
+    width: 40%;
+    margin: 10%;
+    background-image: url("../img/fondos/Matrix1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid white;
@@ -78,7 +79,7 @@
     overflow: hidden;
 }
 h2{
-    background-image: url("../img/fondos/fondoGotas.jpeg");
+    background-image: url("../img/fondos/Matrix1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -103,7 +104,7 @@ h2{
     width: 25vw;
     align-items: center;
     border: 5px solid white;
-    background-image: url("../img/fondos/fondoGotas.jpeg");
+    background-image: url("../img/fondos/Matrix1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2vh;
@@ -116,7 +117,7 @@ h2{
     height: 15vh;
     width: 9vw;
     padding: 5px;
-    background-image: url("../img/fondos/fondoGotas.jpeg");
+    background-image: url("../img/fondos/Matrix1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid white;
@@ -172,7 +173,7 @@ fieldset{
     padding: 2%;
     border: 3px solid white;
     border-radius: 10px;
-    background-image: url("../img/fondos/fondoGotas.jpeg");
+    background-image: url("../img/fondos/Matrix1.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -234,14 +235,10 @@ button:active{
     justify-content: space-around;
 }
 .cruz{
-    height: 50vh;
-    width: 20vw;
+    width: 50%;
     border-radius: 20px;
     margin: 50px 120px 20px 120px;
     border: 5px solid white;
-}
-.nombreYentrada{
-    margin: 20vh;
 }
 .contenedor_habilidades{
     height: 60vh;
@@ -249,7 +246,7 @@ button:active{
     justify-content: space-around;
 }
 .pie{
-    background-image: url("../img/burbujas.webp");
+    background-image: url("../img/fondos/Matrix4.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
