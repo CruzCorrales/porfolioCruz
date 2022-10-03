@@ -14,17 +14,20 @@ const iconoHuella = document.querySelector(".huella");
 const opciones = document.querySelector(".opcion__a");
 const contenedorImagen = document.querySelector(".contenedor_imagen");
 
-function cambiarColorLetras () {
-    opciones.style.color = "black";
-}
-iconoHuella.addEventListener("mouseover", cambiarColorLetras)
-
 function cambiarColorCuadros () {
     contenedorImagen.style.backgroundColor = "white";
 }
 function deshabilitarColor(){
-    iconoHuella.addEventListener("click", cambiarColorCuadros)
+    iconoHuella.addEventListener("click", cambiarColorCuadros);
 }
-iconoHuella.addEventListener("click", cambiarColorCuadros)
+iconoHuella.addEventListener("click", cambiarColorCuadros);
 iconoHuella.removeEventListener("mouseout", deshabilitarColor);
 
+const icono = document.querySelector(".icono");
+const maximizar = document.querySelector(".maximizar");
+
+function agrandarLetras(){
+    maximizar.classList.add("texto");
+}
+
+icono.addEventListener("click", agrandarLetras);
